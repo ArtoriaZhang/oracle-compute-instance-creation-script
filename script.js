@@ -100,7 +100,7 @@ const currentTime = () => {
 let INTERVAL_DURATION = 30;
 
 const countdownDuration = () => {
-	Math.round(INTERVAL_DURATION + Math.random() * 30);
+	return Math.round(INTERVAL_DURATION + Math.random() * 300);
 }
 
 let countdown = countdownDuration();
